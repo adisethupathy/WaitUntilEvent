@@ -15,15 +15,17 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 #   1. Write a line of code that would input an INTEGER from the
 #      console, storing the integer in a variable called 'x'.
 #      Write your line here:
+#           age = int(input('how old are you?')
 #
 #   2. Write a line of code that would input an FLOAT from the console,
 #      storing the float in a variable called 'x'.
 #      Write your line here:
+        # weight = float(input('how much do you weigh?')
 #
 #   3. Write a line of code that would input an STRING from the console,
 #      storing the string in a variable called 'x'.
 #      Write your line here:
-#
+#               # name = input('what is your name?')
 #   4. What happens if you (the user) enter something OTHER than a
 #      single integer (e.g., you enter
 #        five
@@ -35,6 +37,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 #        nothing at all (just press the Enter key)
 #      -- try them!) when running the   input_an_integer   example?
 #      Put your answer here:
+#           ValueError: invalid literal for int() with base 10: '4.5'
 #
 #   After you have PUT YOUR ANSWERS IN THIS COMMENT as described above,
 #     a. Find someone who has had HER answer checked.
@@ -47,9 +50,9 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the other functions in this module to demo CONSOLE IO. """
-    input_a_string()
+   # input_a_string()
     input_an_integer()
-    input_a_float()
+    #input_a_float()
 
 
 ########################################################################
